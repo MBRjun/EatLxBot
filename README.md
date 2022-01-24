@@ -3,7 +3,7 @@
 </p>
 <div align="center">
 
-# RapeSenpai
+# EatLxBot
 **新概念吃软糖酱游戏**
 </div>
 
