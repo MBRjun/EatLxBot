@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '逊呐';
-    if (score <= 99) return '哼哼哼';
-    if (score <= 149) return '你是一个一个一个';
-    if (score <= 199) return '哼哼哼啊啊啊啊啊';
-    return '皮燕都撅烂了罢（恼';
+    if (score <= 49) return '寄';
+    if (score <= 99) return '获取失败（-19）';
+    if (score <= 149) return 'User Got Shadowbanned';
+    if (score <= 199) return '您的QQ因违规进入保护模式';
+    return '？？？人？？';
 }
 
 function toStr(obj) {
