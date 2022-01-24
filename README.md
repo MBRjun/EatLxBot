@@ -10,4 +10,10 @@
 ## 简介
 小游戏：吃掉软糖酱
 
+## 友链
+[MBRjun Blog](https://mbrjun.cn/)  
+[RhyDown](https://rhydown.com)  
+[MBRjun Daily](https://t.me/MBRjunDaily)  
+
+
 本页面/网站/repo与lxns和LxBot无关，本网站制作无恶意。
