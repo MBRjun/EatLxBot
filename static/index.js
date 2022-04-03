@@ -341,11 +341,16 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '寄';
+    if (score <= 19) return '寄';
+    if (score <= 39) return '本月解封次数已达上限';
+    if (score <= 79) return '该账号因涉嫌违规注册QQ账号已被冻结';
     if (score <= 99) return '获取失败（-19）';
-    if (score <= 149) return 'User Got Shadowbanned';
+    if (score <= 129) return 'User Got Shadowbanned';
+    if (score <= 139) return '喜报 发送群消息失败 可能是因为...';
+    if (score <= 149) return '账号被禁言或已被风控';
+    if (score <= 159) return '身份验证失败，请你重新登陆';
     if (score <= 199) return '您的QQ因违规进入保护模式';
-    return '？？？人？？';
+    return '该QQ账号暂时被冻结无法登录';
 }
 
 function toStr(obj) {
