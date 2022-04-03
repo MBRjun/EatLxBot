@@ -9,6 +9,7 @@
 
 ## 简介
 小游戏：吃掉软糖酱
+Last Upd: Sat 07 Apr 2022 17:18 UTC
 
 ## 友链
 [MBRjun Blog](https://mbrjun.cn/)  
